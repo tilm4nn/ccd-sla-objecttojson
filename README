@@ -1,0 +1,11 @@
+CCD Training - Single Level of Abstraction - Object to JSON
+
+This project contains the class ObjectToJson that can be used to
+serialize a Java Object to JSON.
+
+The code is difficult to because it mixes up many the different
+abstraction levels.
+
+Goal:
+Refactor the class that the differen abstraction levels are
+seperated in different methods.
