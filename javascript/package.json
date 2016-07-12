@@ -1,0 +1,29 @@
+{
+  "name": "ccd-sla-objecttojson",
+  "version": "0.9.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "tsc",
+    "prestart": "npm run compile",
+    "start": "node index.js",
+    "pretest": "npm run compile",
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tilm4nn/ccd-sla-objecttojson"
+  },
+  "author": "Christian Janz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tilm4nn/ccd-sla-objecttojson/issues"
+  },
+  "homepage": "https://github.com/tilm4nn/ccd-sla-objecttojson#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3",
+    "typescript": "^1.8.10",
+    "typings": "^1.3.1"
+  }
+}
